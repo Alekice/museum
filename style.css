@@ -925,18 +925,20 @@ input[type="time"] {
 }
 
 .entry-ticket .input-wrap {
-  /* width: 105px; */
   display: flex;
+  /* justify-content: center; */
 }
 
-.entry-ticket .price-wrap button {
+.entry-ticket .price-wrap .amount-btn {
   width: 35px;
   height: 25px;
   background-color: var(--bg-dark);
   border: none;
+  text-align: center;
+  cursor: pointer;
 }
 
-.entry-ticket .price-wrap input {
+.entry-ticket .price-wrap .number {
   width: 35px;
   height: 25px;
   border: none;
